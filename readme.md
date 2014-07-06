@@ -9,10 +9,20 @@ This is just a small project of mine. It is only tested with my setup and there 
 ## Install
 ```
 git clone https://github.com/aslansky/sonoshue.git
+cd sonoshue
+npm install
 ```
 
 ## Usage
 ```
-cd sonoshue
-./bin/sonoshue -l <your local ip address>
+// help
+./bin/sonoshue --help
+./bin/sonoshue info --help
+./bin/sonoshue listen --help
+
+// show info about your hue
+./bin/sonoshue info
+
+// start listening
+./bin/sonoshue listen -b 1 -b 2 -b 3 -l <your local ip address>
 ```
