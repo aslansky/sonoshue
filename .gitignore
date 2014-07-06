@@ -1,0 +1,8 @@
+node_modules
+coverage
+.DS_Store
+*.log
+build
+test/dist
+npm-debug.log
+track.image

@@ -1,0 +1,40 @@
+{
+  "name": "sonoshue",
+  "version": "0.0.1",
+  "description": "Service for hue lights to change the color of album art currently playing on your sonos",
+  "main": "index.js",
+  "bin": {
+    "sonoshue": "./bin/sonoshue.js"
+  },
+  "dependencies": {
+    "chroma-js": "^0.5.7",
+    "color-thief": "^2.1.0",
+    "ip": "^0.3.0",
+    "node-hue-api": "^0.2.3",
+    "nomnom": "^1.8.0",
+    "request": "^2.36.0",
+    "shutdown-handler": "^1.0.0",
+    "sonos": "^0.6.1",
+    "underscore": "^1.6.0",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aslansky/sonoshue.git"
+  },
+  "keywords": [
+    "sonos",
+    "hue",
+    "light"
+  ],
+  "author": "Alexander Slansky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aslansky/sonoshue/issues"
+  },
+  "homepage": "https://github.com/aslansky/sonoshue"
+}
